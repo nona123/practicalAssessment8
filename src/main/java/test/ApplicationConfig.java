@@ -12,6 +12,9 @@ public interface ApplicationConfig extends Config{
     @Config.Key("server.base")
     String base();
 
+    @Config.Key("server.base")
+    String base2();
+
     @Config.Key("server.host")
     String host();
 }

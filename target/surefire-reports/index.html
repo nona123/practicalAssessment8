@@ -102,17 +102,17 @@
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="PostMealPlanTest" class="method navigator-link" hash-for-method="addItemToMealPlanner">addItemToMealPlanner</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="MealPlanTest" class="method navigator-link" hash-for-method="AddItemtoMealPlanTest">AddItemtoMealPlanTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="GetMealPlanTest" class="method navigator-link" hash-for-method="testComplexSearch">testComplexSearch</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="MealPlanTest" class="method navigator-link" hash-for-method="DeleteItemtoMealPlanTest">DeleteItemtoMealPlanTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="GetMealPlanTest" class="method navigator-link" hash-for-method="testMealPlannerGenerate">testMealPlannerGenerate</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="MealPlanTest" class="method navigator-link" hash-for-method="MealPlanGenerateTest">MealPlanGenerateTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -130,42 +130,34 @@
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">GetMealPlanTest</span>
+              <span class="class-name">MealPlanTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testComplexSearch">
-                  </a> <!-- testComplexSearch -->
-                  <span class="method-name">testComplexSearch</span>
+                  <a name="AddItemtoMealPlanTest">
+                  </a> <!-- AddItemtoMealPlanTest -->
+                  <span class="method-name">AddItemtoMealPlanTest</span>
                   <em>
-(Test ShoppingList)                  </em>
+(Add item to mealplan)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testMealPlannerGenerate">
-                  </a> <!-- testMealPlannerGenerate -->
-                  <span class="method-name">testMealPlannerGenerate</span>
+                  <a name="DeleteItemtoMealPlanTest">
+                  </a> <!-- DeleteItemtoMealPlanTest -->
+                  <span class="method-name">DeleteItemtoMealPlanTest</span>
                   <em>
-(Test Meal Planner Generate Endpoint)                  </em>
+(Delete item from MealPlan)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-passed -->
-          <div class="suite-Surefire_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">PostMealPlanTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addItemToMealPlanner">
-                  </a> <!-- addItemToMealPlanner -->
-                  <span class="method-name">addItemToMealPlanner</span>
+                  <a name="MealPlanGenerateTest">
+                  </a> <!-- MealPlanGenerateTest -->
+                  <span class="method-name">MealPlanGenerateTest</span>
                   <em>
-(Add items to the meal planner)                  </em>
+(Generate MealPlan)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -182,8 +174,7 @@
   &lt;test thread-count=&quot;1&quot; parallel=&quot;classes&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;BaseTest&quot;/&gt;
-      &lt;class name=&quot;GetMealPlanTest&quot;/&gt;
-      &lt;class name=&quot;PostMealPlanTest&quot;/&gt;
+      &lt;class name=&quot;MealPlanTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Surefire test --&gt;
 &lt;/suite&gt; &lt;!-- Surefire suite --&gt;
@@ -197,7 +188,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (3 classes)</span>
+                <span class="test-name">Surefire test (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -225,22 +216,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testComplexSearch')
-data.setCell(0, 2, 'GetMealPlanTest')
-data.setCell(0, 3, 2119);
+data.setCell(0, 1, 'AddItemtoMealPlanTest')
+data.setCell(0, 2, 'MealPlanTest')
+data.setCell(0, 3, 2328);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testMealPlannerGenerate')
-data.setCell(1, 2, 'GetMealPlanTest')
-data.setCell(1, 3, 1294);
+data.setCell(1, 1, 'MealPlanGenerateTest')
+data.setCell(1, 2, 'MealPlanTest')
+data.setCell(1, 3, 912);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'addItemToMealPlanner')
-data.setCell(2, 2, 'PostMealPlanTest')
-data.setCell(2, 3, 692);
+data.setCell(2, 1, 'DeleteItemtoMealPlanTest')
+data.setCell(2, 2, 'MealPlanTest')
+data.setCell(2, 3, 310);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -255,20 +246,11 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">4 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">GetMealPlanTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">TearDownSuite</span>
-                <br/>
-                <span class="ignored-method-name">SetUpSuite</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">PostMealPlanTest</span>
+              <span class="ignored-class-name">MealPlanTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">TearDownSuite</span>
                 <br/>
@@ -291,28 +273,25 @@ return data;
               </div> <!-- configuration-suite before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">GetMealPlanTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">MealPlanTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">testComplexSearch</span>
-                <span class="method-start">410 ms</span>
+                <span class="method-name">AddItemtoMealPlanTest</span>
+                <span class="method-start">445 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">testMealPlannerGenerate</span>
-                <span class="method-start">2623 ms</span>
+                <span class="method-name">DeleteItemtoMealPlanTest</span>
+                <span class="method-start">2857 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">PostMealPlanTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">addItemToMealPlanner</span>
-                <span class="method-start">3921 ms</span>
+                <span class="method-name">MealPlanGenerateTest</span>
+                <span class="method-start">3171 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">BaseTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">TearDownSuite</span>
-                <span class="method-start">4653 ms</span>
+                <span class="method-start">4144 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
